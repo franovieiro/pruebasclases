@@ -5,10 +5,14 @@
 		private $autor;
 		private $anio_edicion;
 
-		function __construct(){}
+		function __construct(){
+            $this->nombre = "";
+            $this->autor = "";
+            $this->anio_edicion = "";
+        }
 
 		public function getNombre(){
-		return $this->nombre;
+		    return $this->nombre;
 		}
 
 		public function setNombre($nombre){
@@ -24,7 +28,7 @@
 		}
 
 		public function getAnio_edicion(){
-		return $this->anio_edicion;
+		    return $this->anio_edicion;
 		}
 
 		public function setAnio_edicion($anio_edicion){

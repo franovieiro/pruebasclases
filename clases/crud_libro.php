@@ -2,6 +2,8 @@
 // incluye la clase Db
 require_once('conexion.php');
 
+//ESTO ES EL MODELO DE LIBROS
+
 	class CrudLibro{
 		// constructor de la clase
 		public function __construct(){}
